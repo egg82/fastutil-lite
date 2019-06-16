@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/longs/LongArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongConsumer.class</include>
@@ -75,6 +77,8 @@
                                         <include>it/unimi/dsi/fastutil/longs/LongSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongSets.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/shorts/ShortArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortCollection.class</include>
@@ -71,6 +73,8 @@
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSets.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>
