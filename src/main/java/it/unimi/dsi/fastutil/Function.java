@@ -29,8 +29,7 @@ import java.util.function.IntUnaryOperator;
  * In case the domain is known, {@link #containsKey(Object)} can be used to perform membership queries.
  *
  * <p>The choice of naming all methods exactly as in {@link java.util.Map} makes it possible
- * for all type-specific maps to extend type-specific functions (e.g., {@link it.unimi.dsi.fastutil.ints.Int2IntMap Int2IntMap}
- * extends {@link it.unimi.dsi.fastutil.ints.Int2IntFunction Int2IntFunction}). However, {@link #size()} is allowed to return -1 to denote
+ * for all type-specific maps to extend type-specific functions. However, {@link #size()} is allowed to return -1 to denote
  * that the number of keys is not available (e.g., in the case of a string hash function).
  *
  * <p>Note that there is an {@link it.unimi.dsi.fastutil.objects.Object2ObjectFunction Object2ObjectFunction} that
@@ -46,11 +45,9 @@ import java.util.function.IntUnaryOperator;
  *
  * <p>No attempt will be made at creating type-specific versions of {@link java.util.function.Function} as
  * the JDK already provides several specializations, such as {@link IntToLongFunction}.
- * Rather, type-specific versions of this class do implement the corresponding classes in {@link java.util.function}:
- * for example, {@link Int2LongFunction} extends {@link IntToLongFunction} and {@link Int2IntFunction} extends
- * {@link IntUnaryOperator}. For functions that do not have a corresponding JDK function we extend the
- * closest possible function (widening input and output types): for example, {@link Byte2CharFunction} extends
- * {@link IntUnaryOperator}.
+ * Rather, type-specific versions of this class do implement the corresponding classes in {@link java.util.function}.
+ * For functions that do not have a corresponding JDK function we extend the closest possible function (widening input
+ * and output types).
  *
  * <h2>Default methods and lambda expressions</h2>
  *

@@ -157,7 +157,6 @@ public class Arrays {
 	 * function.
 	 *
 	 * @param from the index of the first element (inclusive) to be included in the binary search.
-	 * @param to the index of the last element (exclusive) to be included in the binary search.
 	 * @param pos the position of the element to be searched for.
 	 * @param comp the comparison function.
 	 * @return The largest index i such that, for every j in the range {@code [first..i)},

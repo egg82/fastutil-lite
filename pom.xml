@@ -76,8 +76,8 @@
 
     <repositories>
         <repository>
-            <id>aikar</id>
-            <url>https://repo.aikar.co/content/groups/aikar/</url>
+            <id>nexus</id>
+            <url>https://nexus.egg82.me/repository/maven-releases/</url>
         </repository>
     </repositories>
 

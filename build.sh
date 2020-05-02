@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ -z "$1" ]; then
-	mvn -T 8 install
+	mvn -B -T 8 clean install javadoc:jar deploy
 else
-	mvn -T 8 $@
+	mvn -B -T 8 $@
 fi

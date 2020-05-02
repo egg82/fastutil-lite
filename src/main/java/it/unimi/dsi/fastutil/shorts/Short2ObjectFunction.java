@@ -53,8 +53,7 @@ public interface Short2ObjectFunction <V> extends Function<Short, V>, java.util.
 	 * represented in the restricted domain. This is done for interoperability
 	 * with the Java 8 function environment. Its use is discouraged, as
 	 * unexpected errors can occur. Instead, the corresponding classes should be
-	 * used (e.g., {@link it.unimi.dsi.fastutil.ints.Int2IntFunction} instead of
-	 * {@link it.unimi.dsi.fastutil.shorts.Short2IntFunction}).
+	 * used.
 	 *
 	 * @throws IllegalArgumentException If the given operand is not an element of the key domain.
 	 * @since 8.0.0
