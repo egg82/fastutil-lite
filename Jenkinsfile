@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -T 8 -DskipTests clean package javadoc:jar'
+                sh 'mvn -B -T 8 -DskipTests clean package'
             }
         }
         stage('Test') {
